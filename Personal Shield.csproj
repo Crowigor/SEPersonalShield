@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<RootNamespace>CSE</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<LangVersion>6</LangVersion>
+	</PropertyGroup>
+	<PropertyGroup>
+		<SEModsToolsModName>Resource Extractors Nodes</SEModsToolsModName>
+		<SEModsToolsGameBinPath>C:\Games\Steam\steamapps\common\SpaceEngineers\Bin64</SEModsToolsGameBinPath>
+		<SEModsToolsModsFolder>%AppData%\SpaceEngineers\Mods</SEModsToolsModsFolder>
+		<SEModsToolsAllowedExtensions>.cs,.sbc,.png,.mwm,.dds,.xml,.txt,.resx,.sbl</SEModsToolsAllowedExtensions>
+		<SEModsToolsAutomaticUpload>true</SEModsToolsAutomaticUpload>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="netstandard">
+			<HintPath>$(SEModsToolsGameBinPath)\netstandard.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="ProtoBuf.Net.Core">
+			<HintPath>$(SEModsToolsGameBinPath)\ProtoBuf.Net.Core.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Sandbox.Common">
+			<HintPath>$(SEModsToolsGameBinPath)\Sandbox.Common.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Sandbox.Game">
+			<HintPath>$(SEModsToolsGameBinPath)\Sandbox.Game.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="Sandbox.Graphics">
+			<HintPath>$(SEModsToolsGameBinPath)\Sandbox.Graphics.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="SpaceEngineers.Game">
+			<HintPath>$(SEModsToolsGameBinPath)\SpaceEngineers.Game.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="SpaceEngineers.ObjectBuilders">
+			<HintPath>$(SEModsToolsGameBinPath)\SpaceEngineers.ObjectBuilders.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="VRage">
+			<HintPath>$(SEModsToolsGameBinPath)\VRage.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="VRage.Game">
+			<HintPath>$(SEModsToolsGameBinPath)\VRage.Game.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="VRage.Input">
+			<HintPath>$(SEModsToolsGameBinPath)\VRage.Input.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="VRage.Library">
+			<HintPath>$(SEModsToolsGameBinPath)\VRage.Library.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="VRage.Math">
+			<HintPath>$(SEModsToolsGameBinPath)\VRage.Math.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="VRage.Render">
+			<HintPath>$(SEModsToolsGameBinPath)\VRage.Render.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+		<Reference Include="System.Collections.Immutable">
+			<HintPath>$(SEModsToolsGameBinPath)\System.Collections.Immutable.dll</HintPath>
+			<Private>false</Private>
+		</Reference>
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Data\Scripts\HUDApi\" />
+	</ItemGroup>
+</Project>

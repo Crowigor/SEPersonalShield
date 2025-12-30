@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<GasProperties>
+		<Gas>
+			<Id>
+				<TypeId>GasProperties</TypeId>
+				<SubtypeId>CSEPersonalShield_Charge</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Charge}</DisplayName>
+			<EnergyDensity>0</EnergyDensity>
+		</Gas>
+	</GasProperties>
+</Definitions>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Blueprints>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CSEPersonalShield_Rank0_Item</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Rank0}</DisplayName>
+			<Icon>Textures\Icons\CSEPersonalShield_ItemRank0.dds</Icon>
+			<Prerequisites>
+				<Item Amount="30" TypeId="Ingot" SubtypeId="Iron" />
+				<Item Amount="20" TypeId="Ingot" SubtypeId="Nickel" />
+				<Item Amount="30" TypeId="Ingot" SubtypeId="Silicon" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="GasContainerObject" SubtypeId="CSEPersonalShield_Rank0"/>
+			<BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+			<IgnoreEfficiencyMultiplier>true</IgnoreEfficiencyMultiplier>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CSEPersonalShield_Rank1_Item</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Rank1}</DisplayName>
+			<Icon>Textures\Icons\CSEPersonalShield_ItemRank1.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="GasContainerObject" SubtypeId="CSEPersonalShield_Rank0"/>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Cobalt"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="GasContainerObject" SubtypeId="CSEPersonalShield_Rank1"/>
+			<BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+			<IgnoreEfficiencyMultiplier>true</IgnoreEfficiencyMultiplier>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CSEPersonalShield_Rank2_Item</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Rank2}</DisplayName>
+			<Icon>Textures\Icons\CSEPersonalShield_ItemRank2.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="GasContainerObject" SubtypeId="CSEPersonalShield_Rank1"/>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Silver"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="GasContainerObject" SubtypeId="CSEPersonalShield_Rank2"/>
+			<BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+			<IgnoreEfficiencyMultiplier>true</IgnoreEfficiencyMultiplier>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CSEPersonalShield_Rank3_Item</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Rank3}</DisplayName>
+			<Icon>Textures\Icons\CSEPersonalShield_ItemRank3.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="GasContainerObject" SubtypeId="CSEPersonalShield_Rank2"/>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Gold"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="GasContainerObject" SubtypeId="CSEPersonalShield_Rank3"/>
+			<BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+			<IgnoreEfficiencyMultiplier>true</IgnoreEfficiencyMultiplier>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CSEPersonalShield_Rank4_Item</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Rank4}</DisplayName>
+			<Icon>Textures\Icons\CSEPersonalShield_ItemRank4.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="GasContainerObject" SubtypeId="CSEPersonalShield_Rank3"/>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Platinum"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="GasContainerObject" SubtypeId="CSEPersonalShield_Rank4"/>
+			<BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+			<IgnoreEfficiencyMultiplier>true</IgnoreEfficiencyMultiplier>
+		</Blueprint>
+		<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>CSEPersonalShield_Rank5_Item</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Rank5}</DisplayName>
+			<Icon>Textures\Icons\CSEPersonalShield_ItemRank5.dds</Icon>
+			<Prerequisites>
+				<Item Amount="1" TypeId="GasContainerObject" SubtypeId="CSEPersonalShield_Rank4"/>
+				<Item Amount="1" TypeId="Ingot" SubtypeId="Uranium"/>
+			</Prerequisites>
+			<Result Amount="1" TypeId="GasContainerObject" SubtypeId="CSEPersonalShield_Rank5"/>
+			<BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+			<IgnoreEfficiencyMultiplier>true</IgnoreEfficiencyMultiplier>
+		</Blueprint>
+	</Blueprints>
+</Definitions>
