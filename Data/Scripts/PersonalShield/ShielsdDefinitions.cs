@@ -85,7 +85,7 @@ namespace CSEPersonalShield
                 DisplayName = "DisplayName_CSEPersonalShield_Rank3",
                 Rank = 3,
                 Capacity = 1400f,
-                RechargePerSecond = 1400f,
+                RechargePerSecond = 140f,
                 RechargeCost = 0.20f,
                 AbsorbGroups = new HashSet<GroupDefinitions.Group>
                 {
