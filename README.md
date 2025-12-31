@@ -1,7 +1,7 @@
 # CSE Personal Shield
-![Personal Shield](thumb.png)
-
 Personal Shield Mod for Space Engineers
+
+![Personal Shield](thumb.png)
 
 ## What this mod adds
 This mod adds 6 ranks of personal shields.
@@ -15,3 +15,10 @@ The shield works like a gas bottle: the charge is stored in the item itself.
 If you move the shield into a container, it keeps its charge.
 To use the shield, keep it in your character’s inventory. If you have multiple shields, the best (highest rank) one will be used.
 
+## Where to change settings / items
+
+Damage groups can be edited in:
+- `Data/Scripts/PersonalShield/GroupDefinitions.cs`
+
+Shields and balance values can be edited in:
+- `Data/Scripts/PersonalShield/ShielsdDefinitions.cs`
