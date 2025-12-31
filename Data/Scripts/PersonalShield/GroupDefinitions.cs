@@ -45,7 +45,7 @@ namespace CSEPersonalShield
                 }
             },
             {
-                Group.Creature, new DamageGroup() // Ag
+                Group.Creature, new DamageGroup()
                 {
                     DisplayName = "Creature",
                     IconMaterial = "CSEPersonalShield_DamageCreature",
@@ -58,7 +58,7 @@ namespace CSEPersonalShield
             },
 
             {
-                Group.Bullet, new DamageGroup // Au
+                Group.Bullet, new DamageGroup
                 {
                     DisplayName = "Bullet",
                     IconMaterial = "CSEPersonalShield_DamageBullet",
@@ -70,7 +70,7 @@ namespace CSEPersonalShield
                 }
             },
             {
-                Group.Rocket, new DamageGroup // Pt
+                Group.Rocket, new DamageGroup
                 {
                     DisplayName = "Rocket",
                     IconMaterial = "CSEPersonalShield_DamageRocket",
@@ -81,7 +81,7 @@ namespace CSEPersonalShield
                 }
             },
             {
-                Group.Explosion, new DamageGroup // U
+                Group.Explosion, new DamageGroup
                 {
                     DisplayName = "Explosion",
                     IconMaterial = "CSEPersonalShield_DamageExplosion",

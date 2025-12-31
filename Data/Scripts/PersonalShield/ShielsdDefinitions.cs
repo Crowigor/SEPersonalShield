@@ -15,7 +15,7 @@ namespace CSEPersonalShield
                 Rank = 99,
                 Capacity = 10000,
                 RechargePerSecond = 1000f,
-                RechargeCost = 0.50f,
+                RechargeCost = 0.05f,
                 BlockHpDamage = true,
                 AbsorbGroups = new HashSet<GroupDefinitions.Group>
                 {
@@ -28,9 +28,9 @@ namespace CSEPersonalShield
                 },
                 Overload = new Dictionary<GroupDefinitions.Group, float>
                 {
-                    { GroupDefinitions.Group.Collision, 0.3f },
-                    { GroupDefinitions.Group.Rocket, 0.3f },
-                    { GroupDefinitions.Group.Explosion, 0.9f }
+                    { GroupDefinitions.Group.Collision, 0.25f },
+                    { GroupDefinitions.Group.Rocket, 0.25f },
+                    { GroupDefinitions.Group.Explosion, 0.25f }
                 }
             },
             new ShieldsComponent.Shield
@@ -86,7 +86,7 @@ namespace CSEPersonalShield
                 Rank = 3,
                 Capacity = 1400f,
                 RechargePerSecond = 140f,
-                RechargeCost = 0.20f,
+                RechargeCost = 0.15f,
                 AbsorbGroups = new HashSet<GroupDefinitions.Group>
                 {
                     GroupDefinitions.Group.Tools,
@@ -106,7 +106,7 @@ namespace CSEPersonalShield
                 Rank = 2,
                 Capacity = 800f,
                 RechargePerSecond = 80f,
-                RechargeCost = 0.20f,
+                RechargeCost = 0.15f,
                 AbsorbGroups = new HashSet<GroupDefinitions.Group>
                 {
                     GroupDefinitions.Group.Tools,
@@ -125,7 +125,7 @@ namespace CSEPersonalShield
                 Rank = 1,
                 Capacity = 400f,
                 RechargePerSecond = 40f,
-                RechargeCost = 0.20f,
+                RechargeCost = 0.10f,
                 AbsorbGroups = new HashSet<GroupDefinitions.Group>
                 {
                     GroupDefinitions.Group.Tools,
@@ -143,7 +143,7 @@ namespace CSEPersonalShield
                 Rank = 0,
                 Capacity = 200f,
                 RechargePerSecond = 20f,
-                RechargeCost = 0.20f,
+                RechargeCost = 0.10f,
                 AbsorbGroups = new HashSet<GroupDefinitions.Group>
                 {
                     GroupDefinitions.Group.Tools

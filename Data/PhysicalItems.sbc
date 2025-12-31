@@ -32,7 +32,13 @@
 				<SubtypeId>CSEPersonalShield_Rank5</SubtypeId>
 			</Id>
 			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Rank5}</DisplayName>
-			<ExtraInventoryTooltipLine>Capacity: 3600 | Protection: Tools, Collision, Creature, Bullet, Rocket, Explosion | Overload: Collision 50%, Rocket: 50%, Explosion: 90%</ExtraInventoryTooltipLine>
+			<ExtraInventoryTooltipLine>
+				Capacity: 3600
+				Recharge per second: 360
+				Recharge cost: 20%
+				Protection: Tools, Collision, Creature, Bullet, Rocket, Explosion
+				Overload: Collision 25%, Rocket 50%, Explosion 75%
+			</ExtraInventoryTooltipLine>
 			<Icon>Textures\Icons\CSEPersonalShield_ItemRank5.dds</Icon>
 			<Size>
 				<X>0.24</X>
@@ -57,7 +63,13 @@
 				<SubtypeId>CSEPersonalShield_Rank4</SubtypeId>
 			</Id>
 			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Rank4}</DisplayName>
-			<ExtraInventoryTooltipLine>Capacity: 2200 | Protection: Tools, Collision, Creature, Bullet, Rocket | Overload: Collision 50%, Rocket: 50%</ExtraInventoryTooltipLine>
+			<ExtraInventoryTooltipLine>
+				Capacity: 2200
+				Recharge per second: 220
+				Recharge cost: 20%
+				Protection: Tools, Collision, Creature, Bullet, Rocket
+				Overload: Collision 25%, Rocket 75%
+			</ExtraInventoryTooltipLine>
 			<Icon>Textures\Icons\CSEPersonalShield_ItemRank4.dds</Icon>
 			<Size>
 				<X>0.24</X>
@@ -82,7 +94,13 @@
 				<SubtypeId>CSEPersonalShield_Rank3</SubtypeId>
 			</Id>
 			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Rank3}</DisplayName>
-			<ExtraInventoryTooltipLine>Capacity: 1400 | Protection: Tools, Collision, Creature, Bullet | Overload: Collision 50%</ExtraInventoryTooltipLine>
+			<ExtraInventoryTooltipLine>
+				Capacity: 1400
+				Recharge per second: 140
+				Recharge cost: 15%
+				Protection: Tools, Collision, Creature, Bullet
+				Overload: Collision 25%
+			</ExtraInventoryTooltipLine>
 			<Icon>Textures\Icons\CSEPersonalShield_ItemRank3.dds</Icon>
 			<Size>
 				<X>0.24</X>
@@ -107,7 +125,13 @@
 				<SubtypeId>CSEPersonalShield_Rank2</SubtypeId>
 			</Id>
 			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Rank2}</DisplayName>
-			<ExtraInventoryTooltipLine>Capacity: 800 | Protection: Tools, Collision, Creature | Overload: Collision 50%</ExtraInventoryTooltipLine>
+			<ExtraInventoryTooltipLine>
+				Capacity: 800
+				Recharge per second: 80
+				Recharge cost: 15%
+				Protection: Tools, Collision, Creature
+				Overload: Collision 50%
+			</ExtraInventoryTooltipLine>
 			<Icon>Textures\Icons\CSEPersonalShield_ItemRank2.dds</Icon>
 			<Size>
 				<X>0.24</X>
@@ -132,7 +156,13 @@
 				<SubtypeId>CSEPersonalShield_Rank1</SubtypeId>
 			</Id>
 			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Rank1}</DisplayName>
-			<ExtraInventoryTooltipLine>Capacity: 400 | Protection: Tools, Collision | Overload: Collision 50%</ExtraInventoryTooltipLine>
+			<ExtraInventoryTooltipLine>
+				Capacity: 400
+				Recharge per second: 40
+				Recharge cost: 10%
+				Protection: Tools, Collision
+				Overload: Collision 75%
+			</ExtraInventoryTooltipLine>
 			<Icon>Textures\Icons\CSEPersonalShield_ItemRank1.dds</Icon>
 			<Size>
 				<X>0.24</X>
@@ -157,7 +187,12 @@
 				<SubtypeId>CSEPersonalShield_Rank0</SubtypeId>
 			</Id>
 			<DisplayName>{LOC:DisplayName_CSEPersonalShield_Rank0}</DisplayName>
-			<ExtraInventoryTooltipLine>Capacity: 200 | Protection: Tools</ExtraInventoryTooltipLine>
+			<ExtraInventoryTooltipLine>
+				Capacity: 200
+				Recharge per second: 20
+				Recharge Cost: 10%
+				Protection: Tools
+			</ExtraInventoryTooltipLine>
 			<Icon>Textures\Icons\CSEPersonalShield_ItemRank0.dds</Icon>
 			<Size>
 				<X>0.24</X>
