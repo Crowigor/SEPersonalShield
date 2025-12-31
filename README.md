@@ -1,5 +1,4 @@
 # CSE Personal Shield
-Personal Shield Mod for Space Engineers
 
 ![Personal Shield](thumb.png)
 
