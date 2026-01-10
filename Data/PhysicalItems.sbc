@@ -37,7 +37,7 @@
 				Recharge per second: 360
 				Recharge cost: 20%
 				Protection: Tools, Collision, Creature, Bullet, Rocket, Explosion
-				Overload: Collision 25%, Rocket 50%, Explosion 75%
+				Overload: Collision 25%, Bullet 25%, Rocket 50%, Explosion 75%
 			</ExtraInventoryTooltipLine>
 			<Icon>Textures\Icons\CSEPersonalShield_ItemRank5.dds</Icon>
 			<Size>
@@ -68,7 +68,7 @@
 				Recharge per second: 220
 				Recharge cost: 20%
 				Protection: Tools, Collision, Creature, Bullet, Rocket
-				Overload: Collision 25%, Rocket 75%
+				Overload: Collision 25%, Bullet 50%, Rocket 75%
 			</ExtraInventoryTooltipLine>
 			<Icon>Textures\Icons\CSEPersonalShield_ItemRank4.dds</Icon>
 			<Size>
@@ -99,7 +99,7 @@
 				Recharge per second: 140
 				Recharge cost: 15%
 				Protection: Tools, Collision, Creature, Bullet
-				Overload: Collision 25%
+				Overload: Collision 25%, Bullet 75%
 			</ExtraInventoryTooltipLine>
 			<Icon>Textures\Icons\CSEPersonalShield_ItemRank3.dds</Icon>
 			<Size>

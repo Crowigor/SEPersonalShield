@@ -29,6 +29,7 @@ namespace CSEPersonalShield
                 Overload = new Dictionary<GroupDefinitions.Group, float>
                 {
                     { GroupDefinitions.Group.Collision, 0.25f },
+                    { GroupDefinitions.Group.Bullet, 0.25f },
                     { GroupDefinitions.Group.Rocket, 0.25f },
                     { GroupDefinitions.Group.Explosion, 0.25f }
                 }
@@ -53,6 +54,7 @@ namespace CSEPersonalShield
                 Overload = new Dictionary<GroupDefinitions.Group, float>
                 {
                     { GroupDefinitions.Group.Collision, 0.25f },
+                    { GroupDefinitions.Group.Bullet, 0.25f },
                     { GroupDefinitions.Group.Rocket, 0.5f },
                     { GroupDefinitions.Group.Explosion, 0.75f }
                 }
@@ -76,6 +78,7 @@ namespace CSEPersonalShield
                 Overload = new Dictionary<GroupDefinitions.Group, float>
                 {
                     { GroupDefinitions.Group.Collision, 0.25f },
+                    { GroupDefinitions.Group.Bullet, 0.5f },
                     { GroupDefinitions.Group.Rocket, 0.75f }
                 }
             },
@@ -96,7 +99,8 @@ namespace CSEPersonalShield
                 },
                 Overload = new Dictionary<GroupDefinitions.Group, float>
                 {
-                    { GroupDefinitions.Group.Collision, 0.25f }
+                    { GroupDefinitions.Group.Collision, 0.25f },
+                    { GroupDefinitions.Group.Bullet, 0.75f }
                 }
             },
             new ShieldsComponent.Shield
